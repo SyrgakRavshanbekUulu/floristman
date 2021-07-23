@@ -21,5 +21,8 @@ module.exports = {
     'require-jsdoc': 'off',
     'react/react-in-jsx-scope': 'off',
     'semi': 'off',
+    'quotes': 'off',
+    'no-unused-vars': 'warn',
+    'comma-dangle': 'warn',
   },
 };
