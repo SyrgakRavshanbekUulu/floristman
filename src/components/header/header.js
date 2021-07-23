@@ -6,13 +6,15 @@ import {
   Grid,
 } from "@material-ui/core"
 import {Menu, Person, Search, ShoppingCart} from "@material-ui/icons"
+
 import logo from '../../images/logo.png'
+
 export const Header = () => {
   const styles = useStyles()
 
   return (
     <div>
-      <AppBar position='static'>
+      <AppBar position='static' color="secondary">
         <Grid>
           <Toolbar className={styles.toolbar}>
             <IconButton
@@ -20,9 +22,9 @@ export const Header = () => {
               color="inherit"
               aria-label="open drawer"
             >
-              <Menu />
+              <Menu fontSize='large'/>
             </IconButton>
-            <Grid
+            <Grid item
               className={styles.title}
               container
               justifyContent="center"

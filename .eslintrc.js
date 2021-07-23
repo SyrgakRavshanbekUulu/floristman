@@ -24,5 +24,6 @@ module.exports = {
     'quotes': 'off',
     'no-unused-vars': 'warn',
     'comma-dangle': 'warn',
+    'object-curly-spacing': 'warn',
   },
 };

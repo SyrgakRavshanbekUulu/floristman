@@ -1,10 +1,11 @@
 import {Header} from "./components/header/header";
+import {MainBlock} from "./components/main-block/mainBlock";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
-      <h1>Welcome to floristmen</h1>
+      <MainBlock />
     </div>
   )
 }
