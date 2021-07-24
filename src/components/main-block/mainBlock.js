@@ -32,7 +32,7 @@ const useStyles = makeStyles({
   main: {
     backgroundImage: `url(${bgImage})`,
     backgroundRepeat: 'no-repeat',
-    height: '800px',
+    height: '1000px',
     backgroundSize: 'cover',
     fontSize: '24px',
   },
