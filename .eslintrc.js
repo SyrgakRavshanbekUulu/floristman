@@ -25,5 +25,6 @@ module.exports = {
     'no-unused-vars': 'warn',
     'comma-dangle': 'warn',
     'object-curly-spacing': 'warn',
+    "react/prop-types": 'off',
   },
 };

@@ -24,19 +24,11 @@ export const BouquetItem = () => {
             style={{padding: '5px', width: '97%'}}
           />
           <div className={styles.info}>
-            <div
-              className={styles.hit}
-            >ХИТ ПРОДАЖ</div>
-            <div
-              className={styles.news}
-            >НОВИНКА</div>
-            <div
-              className={styles.bouquetDay}
-            >БУКЕТ ДНЯ</div>
+            <div className={styles.hit}>ХИТ ПРОДАЖ</div>
+            <div className={styles.news}>НОВИНКА</div>
+            <div className={styles.bouquetDay}>БУКЕТ ДНЯ</div>
           </div>
-          <div className={styles.discounts}>
-            Скидка 50%
-          </div>
+          <div className={styles.discounts}>Скидка 50%</div>
           <CardContent className={styles.title}>
             <p>№225 “Ромашки для Наташки” </p>
             <p>№225 “Ромашки для Наташки” </p>

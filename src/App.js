@@ -1,3 +1,4 @@
+import {Catalog} from "./components/catalog/catalog";
 import {Discounts} from "./components/discounts/discounts";
 import {ForWhom} from "./components/for-whom/for-whom";
 import {Header} from "./components/header/header";
@@ -10,6 +11,7 @@ function App() {
       <MainBlock />
       <Discounts />
       <ForWhom />
+      <Catalog />
     </div>
   )
 }
