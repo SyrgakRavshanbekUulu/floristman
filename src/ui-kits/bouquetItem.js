@@ -31,7 +31,7 @@ export const BouquetItem = () => {
           <div className={styles.discounts}>Скидка 50%</div>
           <CardContent className={styles.title}>
             <p>№225 “Ромашки для Наташки” </p>
-            <p>№225 “Ромашки для Наташки” </p>
+            <p>№225 “Ромашки для Наташ” </p>
           </CardContent>
         </CardActionArea>
 
